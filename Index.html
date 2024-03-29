@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Learning Forms</title>
+	<link rel="stylesheet" href="Indexstyles.css">
+</head>
+<body>
+	<form action="https:www.example.com/register.php" method="post" autocapitalize="yes">
+		<fieldset>
+			Please log or create an account;
+			<label for="name">
+				Name:
+				<input type="text" id="name" maxlength="40" required name="Name" autocomplete>
+			</label>
+			<label for="name">
+				Username:
+				<input type="text" id="name" maxlength="40" required name="Name:" autocomplete>
+			</label>
+			<label for="name">
+				Email:
+				<input type="text" id="name" maxlength="40" required name="Name:" autocomplete>
+			</label>
+			<input type="submit" id="name1" value="Register">
+		</fieldset>
+		<fieldset>
+				Your Personal Details <br>
+				<label for="registration">
+					First Name:
+					<input type="text" id="registration" name="Registration" required autocomplete="additional-name" placeholder="First Name">
+				</label> <br>
+				<label for="registration">
+					Last Name:
+					<input type="text" id="registration" name="Registration" required autocomplete="additional-name" placeholder="last Name">
+				</label><br>
+				<label for="registration">
+					Email:
+					<input type="text" id="registration" name="Registration" required autocomplete="additional-name" placeholder="Email">
+				</label><br>
+				<label for="registration">
+					Date of Birth:
+					<input type="date" id="registration" name="Registration" required autocomplete="additional-name" placeholder="write you date of birth uin the right format"><br>
+				</label>
+				<label for="registration">
+					Phone number:
+					<input type="number" size="13" max="13"  id="registration" name="Registration" required autocomplete="additional-name" placeholder="Entere your phone number here.."><br>
+				</label>
+		</fieldset> <br>
+		<fieldset>
+				Your views <br>
+				<textarea name="Views" id="views" cols="30" rows="10" required autofocus placeholder="Please write your views/inquiry here..."></textarea>
+				<input type="submit" id="send" value="Click to Send">
+		</fieldset>
+	</form>
+	<h1>I AM NATHAN and I am learning forms</h1>
+</body>
+</html>

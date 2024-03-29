@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-size: large;
+	text-transform: capitalize;
+	background-color: rgb(192, 140, 121);
+}
+form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(223, 104, 61);
+	padding: 10%;
+	}
+	input {
+		justify-content: space-between;
+		margin: 5px;
+		font-size: x-large;
+	}
+	textarea {
+		font-size: x-large;
+	}
+	#send {
+		font-size: x-large;
+		background-color: rgb(72, 255, 0);
+		border-style: solid;
+		border-width: thin;
+		border-radius: 3px;
+	}
+	#name1 {
+		font-size: x-large;
+		background-color: rgb(30, 255, 0);
+		border-style: solid;
+		border-width: thin;
+		border-radius: 3px;	
+	}
+	h1 {
+		text-align: center;
+		font-size: xx-large;
+		text-decoration-line: underline;
+		text-decoration-thickness: 15px;
+		text-rendering: optimizeSpeed;
+	}
